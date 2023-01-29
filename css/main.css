@@ -48,12 +48,12 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #cdc3b8;
-  color: #191416;
+  background-color: #6c4830;
 }
 
 .navbar a.active {
-  background-color: #6c4830;
+  background-color: #cdc3b8;
+  color: #191416;
 }
 
 main {
@@ -105,4 +105,28 @@ main {
   to {
     opacity: 1;
   }
+}
+
+/* About.html */
+
+#about h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about img {
+  width: 25%;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+#about div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about h2 {
+  text-align: center;
 }
