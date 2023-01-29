@@ -15,15 +15,15 @@
 /* All pages */
 
 html {
-  background-color: #cdc3b8;
+  background-color: #b4a797;
   font-family: openSans;
 }
 
 body {
+  background-color: #cdc3b8;
   min-height: 100vh;
   max-width: 1200px;
   width: 100%;
-  background-color: #b4a797;
   margin: 0 auto;
 }
 
