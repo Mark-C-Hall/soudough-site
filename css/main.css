@@ -179,3 +179,34 @@ footer a {
   font-size: 0.7rem;
   padding: 0 20px;
 }
+
+/* tools.html */
+#tools {
+  max-width: 600px;
+  margin: auto;
+}
+
+#tools h1 {
+  text-align: center;
+}
+
+#tools h2 {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+#tools p {
+  margin: 10px 0;
+}
+
+#tools img {
+  max-width: 600px;
+}
+
+#tools li {
+  list-style-position: inside;
+}
+
+#tools a {
+  color: #6c4830;
+}
