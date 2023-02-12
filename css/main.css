@@ -210,3 +210,50 @@ footer a {
 #tools a {
   color: #6c4830;
 }
+
+/* starter.html */
+#starter h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#starter .instructions-container {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  border: #191416 solid 3px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#starter h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#starter .item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#starter .day-btns {
+  margin: 20px auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#starter .day-btns button {
+  width: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #6c4830;
+  color: #cdc3b8;
+}
+
+#starter .day-btns button:hover {
+  background-color: #b4a797;
+  color: #191416;
+}
