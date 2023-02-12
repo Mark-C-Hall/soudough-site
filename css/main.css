@@ -67,6 +67,12 @@ main {
   padding: 18px;
 }
 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
 footer {
   text-align: center;
   padding: 3px;
@@ -83,11 +89,6 @@ footer a {
 
 .title {
   padding: 20px 0;
-}
-
-#landing h1 {
-  text-align: center;
-  text-transform: uppercase;
 }
 
 #landing p {
@@ -127,11 +128,6 @@ footer a {
 
 /* About.html */
 
-#about h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
 #about img {
   width: 25%;
   float: left;
@@ -150,10 +146,6 @@ footer a {
 }
 
 /* history.html */
-#history h1 {
-  text-align: center;
-  margin-bottom: 50px;
-}
 
 #history h2 {
   margin-left: 10px;
@@ -186,10 +178,6 @@ footer a {
   margin: auto;
 }
 
-#tools h1 {
-  text-align: center;
-}
-
 #tools h2 {
   margin: 20px 0;
   text-transform: uppercase;
@@ -212,11 +200,6 @@ footer a {
 }
 
 /* starter.html */
-#starter h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
 
 #starter .instructions-container {
   width: 900px;
@@ -256,4 +239,23 @@ footer a {
 #starter .day-btns button:hover {
   background-color: #b4a797;
   color: #191416;
+}
+
+/* bake.html */
+#bake {
+  width: 700px;
+  margin: auto;
+}
+
+#bake h2 {
+  margin: 50px;
+}
+
+#bake ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+#bake ol li {
+  padding: 10px 0;
 }
