@@ -232,13 +232,12 @@ footer a {
   width: 10%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #6c4830;
+  background-color: #552b17;
   color: #cdc3b8;
 }
 
 #starter .day-btns button:hover {
-  background-color: #b4a797;
-  color: #191416;
+  background-color: #6c4830;
 }
 
 /* bake.html */
@@ -258,4 +257,87 @@ footer a {
 
 #bake ol li {
   padding: 10px 0;
+}
+
+/* info.html */
+#info #description {
+  text-align: center;
+}
+
+#info form {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+#info button {
+  padding: 0.4em 1.3em 0.4em 1.3em;
+  font-size: 1.3em;
+  color: white;
+  background-color: #552b17;
+  border-color: #191416;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  display: block;
+}
+
+#info button:hover {
+  background-color: #6c4830;
+}
+
+#info input,
+#info textarea,
+#info select {
+  font-size: 1em;
+  padding: 10px 5px 10px;
+  border-radius: 2px;
+}
+
+#infoinput[type="text"],
+#info input[type="email"] {
+  flex: 0 1 250px;
+}
+
+#info input[type="number"] {
+  flex: 0 0 6em;
+}
+
+#info label.wide {
+  flex: 1 1 140px;
+}
+
+#info input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#info .row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#info .small-row {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+#info div.radio-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info .m-t-20 {
+  margin-top: 20px;
+}
+
+#info .justify-sb {
+  justify-content: space-between;
+}
+
+#info textarea {
+  width: 100%;
 }
