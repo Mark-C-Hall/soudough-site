@@ -16,7 +16,7 @@
 
 html {
   background-color: #b4a797;
-  font-family: openSans;
+  font-family: openSans, sans-serif;
 }
 
 body {
@@ -203,7 +203,7 @@ footer a {
 
 #starter .instructions-container {
   width: 900px;
-  height: 500px;
+  min-height: 500px;
   margin: 0 auto;
   border: #191416 solid 3px;
   border-radius: 10px;
@@ -215,20 +215,34 @@ footer a {
   text-align: center;
 }
 
-#starter .item {
+#starter .item, #starter .flex {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  /*align-items: center;*/
 }
 
-#starter .day-btns {
+#starter .prereq {
+  display: flex;
+  flex-flow: column;
+}
+
+#prereq-subheading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*#starter .item div {*/
+/*  width: 600px;*/
+/*}*/
+
+#starter .day-btns-container {
   margin: 20px auto;
   width: 900px;
   display: flex;
   justify-content: space-between;
 }
 
-#starter .day-btns button {
+#starter .day-btns-container button {
   width: 10%;
   padding: 10px;
   border-radius: 10px;
@@ -236,7 +250,7 @@ footer a {
   color: #cdc3b8;
 }
 
-#starter .day-btns button:hover {
+#starter .day-btns-container button:hover {
   background-color: #6c4830;
 }
 

@@ -1,69 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <title>Sour-dos-and-donts</title>
-  </head>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/main.css"/>
+  <title>Sour-dos-and-donts</title>
+  <script src="../js/starter.js" type="text/javascript" async></script>
+</head>
 
-  <body>
-    <div class="flex-wrapper">
-      <nav class="navbar">
-        <a href="../index.html">Home</a>
-        <div class="nav-right">
-          <a href="about.html">About</a>
-          <a href="history.html">History</a>
-          <a href="tools.html">Tools</a>
-          <a href="starter.html" class="active">Starter</a>
-          <a href="bake.html">Bake</a>
-          <a href="info.html">Info</a>
-        </div>
-      </nav>
+<body>
+<div class="flex-wrapper">
+  <nav class="navbar">
+    <a href="../index.html">Home</a>
+    <div class="nav-right">
+      <a href="about.html">About</a>
+      <a href="history.html">History</a>
+      <a href="tools.html">Tools</a>
+      <a href="starter.html" class="active">Starter</a>
+      <a href="bake.html">Bake</a>
+      <a href="info.html">Info</a>
+    </div>
+  </nav>
 
-      <main id="starter">
-        <h1>Sourdough Starter Guide</h1>
+  <main id="starter">
+    <h1>Sourdough Starter Guide</h1>
 
-        <div class="instructions-container">
-          <h2>Prerequisites</h2>
-          <div class="prereq item">
-            <div>
-              <h3>Materials:</h3>
-              <ul>
-                <li>Jars</li>
-                <li>Small spatula</li>
-                <li>Scale</li>
-                <li>Digital Thermometer (Optional)</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Ingredients:</h3>
-              <ul>
-                <li>Stone ground rye flour</li>
-                <li>Unbleached all purpose flour</li>
-                <li>Lukewarm water at 85&#8457;</li>
-              </ul>
-            </div>
+    <div class="instructions-container">
+      <h2>Prerequisites</h2>
+      <div class="item prereq">
+        <div class="flex">
+          <div>
+            <h3>Materials:</h3>
+            <ul>
+              <li>Jars</li>
+              <li>Small spatula</li>
+              <li>Scale</li>
+              <li>Digital Thermometer (Optional)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ingredients:</h3>
+            <ul>
+              <li>Stone ground rye flour</li>
+              <li>Unbleached all-purpose flour</li>
+              <li>Lukewarm water at 85&#8457;</li>
+            </ul>
           </div>
         </div>
-        <div class="day-btns">
-          <button>Prereqs</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>7</button>
+        <div>
+          <h3 id="prereq-subheading">General Directions</h3>
+          <ol>
+            <li>Start by recording the weight of your jar. All the following weights will be
+              just for the ingredients, so it's helpful to know the weight of your jar.
+            </li>
+            <li>Warm up the water to a lukewarm amount. Add the weight of water to the jar.</li>
+            <li>Add the flour amounts to the jar after the water.</li>
+            <li>Using the spatula or a spoon, mix until there are no dry spots.</li>
+            <li>Loosely cover the jar and let rest at room temperature for a day.</li>
+            <li>After the first day, you will discard most of the mixture each day you feed.
+              There will be an amount leftover in the jar each feeding and this will be labeled
+              as "starter amount"
+            </li>
+            <li>Repeat every day. Try to feed around the same time each day. After day 7, your
+              starter should be ready to go. When baking, instead of trashing your "discard"
+              (the amount you take out of the jar before feeding), it will instead be added to
+              the dough for the bake. Follow day 7 ingredients for guide to everyday feeding
+              after intial.
+            </li>
+          </ol>
         </div>
-      </main>
-      <footer>
-        <p>
-          Author: Mark Hall<br />
-          <a href="mailto:mchall11@asu.edu">mchall11@asu.edu</a>
-        </p>
-      </footer>
+      </div>
     </div>
-  </body>
+
+    <div class="instructions-container">
+      <h2>Day 1</h2>
+      <div class="item">
+        <img src="../img/starter-day1.jpg" alt="starter-day-1" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>100g rye flour</li>
+            <li>150g warm waterr</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 2</h2>
+      <div class="item">
+        <img src="../img/starter-day2.jpg" alt="starter-day-2" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>70g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>115g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 3</h2>
+      <div class="item">
+        <img src="../img/starter-day3.jpg" alt="starter-day-3" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>70g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>115g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 4</h2>
+      <div class="item">
+        <img src="../img/starter-day4.jpg" alt="starter-day-4" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>70g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>100g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 5</h2>
+      <div class="item">
+        <img src="../img/starter-day5.jpg" alt="starter-day-5" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>70g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>100g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 6</h2>
+      <div class="item">
+        <img src="../img/starter-day6.jpg" alt="starter-day-6" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>50g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>100g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions-container">
+      <h2>Day 7</h2>
+      <div class="item">
+        <img src="../img/starter-day7.jpg" alt="starter-day-7" />
+        <div>
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>25g mature starter</li>
+            <li>50g rye flour</li>
+            <li>50g AP flour</li>
+            <li>100g lukewarm water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-btns-container">
+      <button class="day-btns">Prereqs</button>
+      <button class="day-btns">1</button>
+      <button class="day-btns">2</button>
+      <button class="day-btns">3</button>
+      <button class="day-btns">4</button>
+      <button class="day-btns">5</button>
+      <button class="day-btns">6</button>
+      <button class="day-btns">7</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Author: Mark Hall<br/>
+      <a href="mailto:mchall11@asu.edu">mchall11@asu.edu</a>
+    </p>
+  </footer>
+</div>
+</body>
 </html>
